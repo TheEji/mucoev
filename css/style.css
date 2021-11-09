@@ -17,12 +17,10 @@
     src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
   }
  
-
-
 *{
     box-sizing: border-box;
     transition: all 0.2s;
-    font-family: "system";
+    font-family: "Roboto-Regular";
 }
 html, body{
     margin: 0;
@@ -36,9 +34,15 @@ html, body{
 
 .wrap{    
     width: 100%;
-    margin: 0 auto;
-    padding:0 10% 0 10%;
+    margin: 0 auto;    
 }
+
+@media (max-width: 1320px) {
+    .wrap{
+       padding: 0 5% 0 5%;
+    }    
+}
+
 
 @media (min-width: 1201px) {
     .wrap{
@@ -52,9 +56,10 @@ a {
 }
 
 .title{
-    text-align: center;
-    font-size: 58px;
-    font-weight: bolder;    
+    text-align: left;
+    font-size: 46px;
+    font-weight: bolder;
+    line-height: 50px;  
 }
 
 .banner{
@@ -68,9 +73,10 @@ a {
 }
 
 .subtitle{
-    width: 300px;
-    font-size: 20px;
-    line-height: 40px;    
+    width: 280px;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 24px;    
 }
 .links{
     margin-top: 150px;

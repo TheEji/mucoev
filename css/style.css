@@ -1,0 +1,95 @@
+
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url('../fonts/Roboto-Regular.woff');
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url('../fonts/Roboto-Bold.woff');
+}
+
+@font-face {
+    font-family: system;
+    font-style: normal;
+    font-weight: 300;
+    src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+  }
+ 
+
+
+*{
+    box-sizing: border-box;
+    transition: all 0.2s;
+    font-family: "system";
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.body{
+    height: 100vh;    
+}
+
+.wrap{    
+    width: 100%;
+    margin: 0 auto;
+    padding:0 10% 0 10%;
+}
+
+@media (min-width: 1201px) {
+    .wrap{
+       width: 1200px;
+    }    
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.title{
+    text-align: center;
+    font-size: 58px;
+    font-weight: bolder;    
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background-color: #D5D5D5;
+    background: url(../img/banner_big.jpg) center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;    
+}
+
+.subtitle{
+    width: 300px;
+    font-size: 20px;
+    line-height: 40px;    
+}
+.links{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link_text{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;    
+}
+
+.link_img{
+    
+}
+
+.link_img:hover{
+opacity: 0.8;
+background-color: black;
+border: 1px solid black;
+}

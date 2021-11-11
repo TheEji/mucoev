@@ -1,0 +1,163 @@
+
+@media (max-width: 1320px) {
+    .wrap{
+       padding: 0 5% 0 5%;
+    }    
+}
+
+
+/*************************1201***************************/
+
+@media (min-width: 1201px) {
+    .wrap{
+       width: 1200px;
+    }    
+}
+
+
+
+/*************************900***************************/
+
+
+@media (max-width: 900px) {
+
+    .title{
+        position: relative;
+        width: 350px;        
+        text-align: left;
+        font-size: 46px;
+        font-weight: bolder;
+        line-height: 50px;  
+    }
+
+    .subtitle{
+        position: relative;
+        width: 280px;        
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 24px;  
+    }
+
+}
+
+
+
+/*************************750***************************/
+
+
+@media (max-width: 750px) {
+    .banner{        
+        height: 200px;          
+    }
+    .title{
+        top:200px;
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .subtitle{
+        top:200px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .links{
+        top:100px;
+    }
+    .wrap{
+        max-width: 600px;
+    }
+
+    .contacts{
+        top:150px;
+    }
+
+    .form_title{
+        font-size: 20px;
+    }
+    .info_title{
+        font-size: 20px;
+    }
+
+    .info_subtitle{
+        font-size: 16px;
+    }
+
+    .back{
+        top:150px;
+    }
+
+
+}    
+
+
+/*************************580***************************/
+
+@media (max-width: 580px) {
+
+    .title{
+        top:200px;
+        font-size: 28px;
+        line-height: 30px;
+        margin: 0 auto 20px auto;
+        text-align: center;
+    }
+
+    .subtitle{
+        top:200px;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .links{
+        margin: 100px auto 0px auto;
+        width: 300px;
+        
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link{
+        margin-bottom: 50px;
+    }
+
+    .contacts{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form_wrap{
+        width: 90%;
+    }
+
+    .info_wrap{
+        width: 90%;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/*************************400***************************/
+
+@media (max-width: 400px) {
+    body{
+        min-width: 300px;
+    }
+    .wrap{
+        width: 300px;
+        padding: 0;
+    }
+    .title{
+        width: 200px;
+    }
+}

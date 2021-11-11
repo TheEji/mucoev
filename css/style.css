@@ -182,7 +182,11 @@ border: 1px solid black;
 
 @media (max-width: 400px) {
     body{
-        width: 340px;
+        min-width: 300px;
+    }
+    .wrap{
+        width: 300px;
+        padding: 0;
     }
     .title{
         width: 200px;

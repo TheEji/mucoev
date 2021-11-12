@@ -1,11 +1,10 @@
 
+
+
 @media (max-width: 1320px) {
     .wrap{
        padding: 0 5% 0 5%;
-    }   
-    .footer{
-        position: relative;
-    }   
+    }       
 }
 
 
@@ -14,15 +13,26 @@
 @media (min-width: 1201px) {
     .wrap{
        width: 1200px;
-    } 
-    .footer{
-        position: relative;
-    }       
+    }      
 }
 
-@media (max-width: 1201px) {
-    
-         
+@media (min-width: 1390px) {
+    .footer{
+        position: absolute;
+        bottom: 0;
+       
+    }
+    .content{        
+        position: relative;
+        height: 100vh;
+    }
+    .content_contacts{
+        position: relative;
+    }
+    .footer_contacts{
+        position: absolute;
+        bottom: -50px;
+    }
 }
 
 /*************************900***************************/
@@ -97,7 +107,7 @@
     }
 
     .footer{
-        top:80px;
+        top:150px;
     }
 
 }    

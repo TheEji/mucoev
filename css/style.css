@@ -28,11 +28,6 @@ html, body{
     padding: 0;
 }
 
-
-.body{
-    height: 100vh;    
-}
-
 .wrap{
     position: relative;    
     width: 100%;
@@ -42,6 +37,12 @@ html, body{
 a {
     text-decoration: none;
     color:inherit;
+}
+
+.godlike{
+    padding:10px;
+    font-size: 12px;
+    text-align: center;
 }
 
 .title{
@@ -70,7 +71,7 @@ a {
 }
 .links{
     position: relative;
-    margin-top: 150px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -91,7 +92,13 @@ border-radius: 10px;
 box-shadow: 0 0 10px rgb(95, 95, 95);
 }
 
-
+.footer{
+    position: relative;
+    margin-top: 80px;
+    padding:20px 0 20px 0;
+    text-align: center;
+    border-top:1px solid rgb(95, 95, 95);
+}
 
 /************************Contacts**********************/
 .form_title{    

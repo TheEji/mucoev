@@ -28,6 +28,11 @@ html, body{
     padding: 0;
 }
 
+.content{
+    position: relative;
+    height: 100vh;
+}
+
 .wrap{
     position: relative;    
     width: 100%;
@@ -93,8 +98,10 @@ box-shadow: 0 0 10px rgb(95, 95, 95);
 }
 
 .footer{
-    position: relative;
+    width: 100%;
+    position: absolute;
     margin-top: 80px;
+    bottom: 0;
     padding:20px 0 20px 0;
     text-align: center;
     border-top:1px solid rgb(95, 95, 95);

@@ -2,7 +2,10 @@
 @media (max-width: 1320px) {
     .wrap{
        padding: 0 5% 0 5%;
-    }    
+    }   
+    .footer{
+        position: relative;
+    }   
 }
 
 
@@ -11,10 +14,16 @@
 @media (min-width: 1201px) {
     .wrap{
        width: 1200px;
-    }    
+    } 
+    .footer{
+        position: relative;
+    }       
 }
 
-
+@media (max-width: 1201px) {
+    
+         
+}
 
 /*************************900***************************/
 
@@ -38,12 +47,7 @@
         line-height: 24px;  
     }
 
-    .footer{
-        position: relative;
-    }
-    .content{
-        width: inherit;
-    }
+
 }
 
 

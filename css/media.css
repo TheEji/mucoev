@@ -1,5 +1,5 @@
 
-@media (min-height: 800px) and (min-width: 580px)  {
+@media (min-width: 580px) and (min-height: 850px)  {
     .footer{
         position: absolute;
         bottom: 0;
@@ -7,9 +7,20 @@
     }
     .content{        
         position: relative;
-        height: 100vh;
+        height: 100vh;       
     }    
 }
+
+
+@media (max-height: 849px)  {
+    .footer{
+        position: relative;
+        top:200px;
+       
+    }
+     
+}
+
 
 
 
@@ -58,7 +69,7 @@
 
 
 
-/*************************750***************************/
+/*************************850***************************/
 
 
 @media (max-width: 850px) {
@@ -103,10 +114,6 @@
     .back{
         top:150px;
     }
-
-    /*.footer{
-        top:150px;
-    }*/
 
     .footer_contacts{
         top:150px;
